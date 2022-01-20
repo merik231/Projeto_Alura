@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador</title>
+</head>
+<body>
+
+    <header>
+    <a href="#">
+        <img src="aluralogo.png" alt="logo alura">
+    </a>
+    </header>
+
+    <main>
+        <section>
+            <label class="titulo" for="input-texto"><strong>Digite seu texto</strong></label>
+            <textarea class="text-input" name="input-texto" id="entrada" placeholder="Digite um texto que você deseja criptografar ou descriptografar."></textarea>
+            <p id="atencao"><img src="exclamação.png" alt="">Apenas letras minúsculas e sem acento.</p>
+            <button class="btn" id="btn-cripto">Criptografar</button>
+            <button class="btn" id="btn-descripto">Descriptografar</button>
+        </section>
+
+        <section class="msg box">
+            <img class="imagemPrincipal" src="imagemprincipal.png" alt="imagen principal">
+            <p id="subtitulo"><strong>Mensagem criptografada:</strong></p>
+            <textarea class="text-input" name="" id="saida" placeholder="Nenhuma mensagem encontrada. Volte e digite um texto."></textarea>
+            <button class="btn" id="btn-copy">Copiar</button>
+        </section>
+    </main>
+
+    <footer>Desenvolvido por Matheus Erik</footer>
+</body>
+</html>
